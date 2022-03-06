@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.inscripciones{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    flex-flow: column;
+    width:100vw;
+    height: 12vh;
+    background-color: aliceblue;
+
+}
+.inscripciones button {
+    background-color: greenyellow;
+    width: 140px;
+    height: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    
+}
+
+.carousel-item{
+    padding-left: 25vw;
+    padding-right: 25vw;
+}
+
+.carousel-item img{
+    max-width:fit-content;
+    max-height: 100%;
+
+}
+
